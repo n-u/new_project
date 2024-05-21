@@ -36,29 +36,8 @@
       </ul>
     </nav>
 
-    <section class="main">
-      <div class="main-top">
-          <h1>   Things You Can Learn</h1>
-        <i class="fas fa-user-cog"></i>
-      </div>
-      <div class="main-skills">
-        <div class="card">
-          <i class="fas fa-laptop-code"></i>
-          <h3>Aptitude</h3>
-          
-          <button onclick="window.location.href='https://www.indiabix.com/aptitude/questions-and-answers/';">Get Started</button>
-        </div>
-        <div class="card">
-          <i class="fab fa-wordpress"></i>
-          <h3>Logical Reasoning </h3>
-         
-          <button onclick="window.location.href='https://www.indiabix.com/logical-reasoning/questions-and-answers/';">Get Started</button>
-        </div>
-        <div class="card">
-          <i class="fas fa-palette"></i>
-          <h3>Coding</h3>
-          
-          <button onclick="window.location.href='https://www.prepbytes.com/blog/wipro-company/wipro-coding-questions-answers/';">Get Started</button>
+    
+      <button onclick="window.location.href='https://www.prepbytes.com/blog/wipro-company/wipro-coding-questions-answers/';">Get Started</button>
         </div>
         <div class="card">
           <i class="fab fa-app-store-ios"></i>
@@ -93,26 +72,7 @@
       </div>
         
 
-      <section class="main-course">
-        <h1>Languages you can Learn</h1>
-        <div class="course-box">
-         
-          <div class="course">
-            <div class="box">
-              <h3>HTML</h3>
-             
-              <button onclick="window.location.href='https://web.dev/learn/html';">continue</button>
-              <i class="fab fa-html5 html"></i>
-            </div>
-            
-              <div class="box">
-              <h3>CSS</h3>
-              
-              <button onclick="window.location.href='https://web.dev/learn/css';">continue</button>
-              <i class="fab fa-css3-alt css"></i>
-            </div>
-            <div class="box">
-              <h3 >JavaScript</h3>
+      
              
               <button onclick="window.location.href='https://web.dev/learn/javascript';">continue</button>
               <i class="fab fa-js-square js"></i>
