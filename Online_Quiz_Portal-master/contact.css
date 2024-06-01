@@ -1,0 +1,84 @@
+*{
+    overflow: hidden;
+}
+
+main{
+    width: 100%;
+    height: 50vh;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.section1{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.section2{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name, #email, #message{
+    display: block;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #0D6EFD;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+#message{
+    height: 100px;
+}
+
+form{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 990px) {
+    .section1, .section1 img{
+        display: none;
+    }
+
+    .section2{
+        width: 100%;
+    }
+
+
+    form{
+        width: 100%;
+    }
+    
+}
